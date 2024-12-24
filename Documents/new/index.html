@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Sameer's Portfolio - Full-Stack Developer">
+    <meta name="keywords" content="Full-Stack Developer, HTML, CSS, JavaScript, Node.js, React, Portfolio">
+    <meta name="author" content="Sameer">
+    <title>Sameer - Full-Stack Developer Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="assets/images/favicon.ico">
+</head>
+<body>
+    <!-- Header -->
+    <header id="header">
+        <nav>
+            <div class="logo"><a href="#">Sameer</a></div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="menu-toggle" id="menu-toggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero">
+        <div class="hero-content">
+            <h1>Hi, I'm Sameer</h1>
+            <p>A passionate Full-Stack Developer</p>
+            <a href="#contact" class="cta-btn">Get In Touch</a>
+        </div>
+    </section>
+
+    <!-- About Me Section -->
+    <section id="about">
+        <h2>About Me</h2>
+        <div class="about-content">
+            <img src="assets/images/profile.jpg" alt="Sameer">
+            <div class="about-text">
+                <p>I'm a Full-Stack Developer with experience in building dynamic websites and applications. I specialize in both front-end and back-end technologies.</p>
+                <div class="timeline">
+                    <!-- Timeline Content will be dynamically added using JS -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <h2>Skills</h2>
+        <div class="skills-container">
+            <div class="skill">
+                <img src="assets/icons/html5.png" alt="HTML5">
+                <p>HTML5</p>
+            </div>
+            <div class="skill">
+                <img src="assets/icons/css3.png" alt="CSS3">
+                <p>CSS3</p>
+            </div>
+            <div class="skill">
+                <img src="assets/icons/js.png" alt="JavaScript">
+                <p>JavaScript</p>
+            </div>
+            <div class="skill">
+                <img src="assets/icons/react.png" alt="React">
+                <p>React</p>
+            </div>
+            <div class="skill">
+                <img src="assets/icons/nodejs.png" alt="Node.js">
+                <p>Node.js</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="projects-grid">
+            <!-- Project Cards will be dynamically added using JS -->
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form id="contact-form" method="POST" action="#">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <input type="text" name="subject" placeholder="Subject" required>
+            <textarea name="message" placeholder="Your Message" required></textarea>
+            <button type="submit" class="submit-btn">Send Message</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer id="footer">
+        <div class="social-links">
+            <a href="https://github.com/sameer" target="_blank">GitHub</a>
+            <a href="https://linkedin.com/in/sameer" target="_blank">LinkedIn</a>
+            <a href="https://twitter.com/sameer" target="_blank">Twitter</a>
+        </div>
+        <p>&copy; 2024 Sameer. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
